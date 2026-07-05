@@ -82,6 +82,10 @@ hr {
     font-weight: 700;
 }
 
+ul {
+    list-style: none;
+}
+
 ul > li {
     margin-bottom: .5rem;
 }
