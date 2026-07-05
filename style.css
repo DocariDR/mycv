@@ -18,7 +18,11 @@ body {
     backdrop-filter: blur(10px);
     margin: 0 auto;
     padding: 4rem 3rem;
-    animation: zoom 3s infinite alternate;
+    animation: zoom 10s infinite alternate;
+}
+
+#cv:hover {
+    animation: paused;
 }
 
 #name {
