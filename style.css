@@ -18,6 +18,7 @@ body {
     backdrop-filter: blur(10px);
     margin: 0 auto;
     padding: 4rem 3rem;
+    animation: zoom 3s infinite alternate;
 }
 
 #name {
@@ -91,3 +92,13 @@ ul > li {
     }
 }
 
+@keyframes zoom {
+  from {
+    transform: scale(.92);
+    opacity: .8;
+  }
+  to {
+    transform: scale(1.02);
+    opacity: 1;
+  }
+}
