@@ -37,6 +37,10 @@ body {
     text-align: justify;
 }
 
+.profil p {
+    text-indent: 2rem;
+}
+
 .conteneur{
     display:  flex;
     gap: 3rem;
