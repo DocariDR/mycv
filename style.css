@@ -69,6 +69,10 @@ hr {
     font-weight: 700;
 }
 
+ul > li {
+    margin-bottom: .5rem;
+}
+
 .date {
     color: gray;
 }
