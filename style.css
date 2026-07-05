@@ -52,6 +52,10 @@ hr {
     margin: 20px 0;
 }
 
+#experience {
+    display: none;
+}
+
 .title-section {
     margin-bottom: 1rem;
     color: white;
