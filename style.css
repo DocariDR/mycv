@@ -69,6 +69,14 @@ hr {
     width: 50%;
 }
 
+#interest ul {
+    list-style: disc;
+}
+
+#language ul {
+    list-style-type: circle;
+}
+
 .title-section {
     margin-bottom: 1rem;
     color: white;
