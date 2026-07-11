@@ -48,13 +48,13 @@ body {
 
 .conteneur{
     display:  flex;
-    gap: 3rem;
+    gap: 1rem;
     margin-top: 2rem;
 }
 
 .conteneur > section:first-child {
     border-right: 3px solid white;
-    padding-right: 3rem;
+    padding-right: 1rem;
 }
 
 hr {
@@ -62,7 +62,6 @@ hr {
 }
 
 #project {
-    width: 50%;
 }
 
 #interest ul {
@@ -103,12 +102,20 @@ ul > li {
 }
 
 @media (max-width: 800px) {
+    #cv {
+        border-width: 1px;
+        border-radius: .5rem;
+        padding: 2rem;
+    }
     .conteneur {
         flex-direction: column;
     }
     .conteneur > section:first-child {
-        border-right: 3px solid white; 
-        padding-right: 3rem;
+        border-right: none; 
+        padding-right: 0;
+    }
+    #project {
+        width: 100%;
     }
 }
 
