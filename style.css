@@ -98,6 +98,10 @@ ul > li {
     color: gray;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  #cv { animation: none; }
+}
+
 @media (max-width: 800px) {
     .conteneur {
         flex-direction: column;
