@@ -61,11 +61,7 @@ hr {
     margin: 20px 0;
 }
 
-#experience {
-    display: none;
-}
-
-#project, #formation {
+#project {
     width: 50%;
 }
 
