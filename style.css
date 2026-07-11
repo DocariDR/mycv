@@ -46,10 +46,14 @@ body {
     text-indent: 2rem;
 }
 
-.conteneur{
+.conteneur {
     display:  flex;
     gap: 1rem;
     margin-top: 2rem;
+}
+
+.conteneur > section {
+    flex: 1;
 }
 
 .conteneur > section:first-child {
@@ -59,9 +63,6 @@ body {
 
 hr {
     margin: 20px 0;
-}
-
-#project {
 }
 
 #interest ul {
@@ -113,9 +114,6 @@ ul > li {
     .conteneur > section:first-child {
         border-right: none; 
         padding-right: 0;
-    }
-    #project {
-        width: 100%;
     }
 }
 
